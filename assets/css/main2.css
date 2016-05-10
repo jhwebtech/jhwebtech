@@ -1,0 +1,121 @@
+*, html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #e1e8f0;
+}
+
+header{
+
+	height: 100vh;
+	width: 100%;
+	/*background-color: #6ed3cf; */
+	background: url("programming2.jpg");
+
+	size: cover;
+	position: center;
+	margin-bottom: 50px;
+
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+    width: 550px;
+}
+
+.navbar {
+	border-radius: 0;
+	font-size: 16px;
+	background-color: #e1e8f0;
+}
+
+.navbar-brand {
+	font-family: 'Satisfy', cursive;
+	font-weight: bold; 
+	font-size: 22px;
+	color: #e62739;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	margin-left: 10px;
+}
+
+.navbar-default .navbar-brand {
+
+	color: #e62739;
+}
+.dropdown-menu{
+	background-color: #e1e8f0;
+}
+
+.dropdown-menu li a:hover{
+	background-color: #e1e8f0;
+}
+
+.jumbotron {
+	width: 550px;
+	margin: auto;
+	padding: auto;
+	background-color: transparent; 
+	text-align: center;
+	/*border: 5px solid red; */
+}
+
+h1 {
+	font-size: 90px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #330000;;
+}
+
+.titles {
+	font-family: 'Satisfy', cursive;
+}
+
+.jumbotron h1 {
+	margin-bottom: 0;
+	/*color: #330000; */
+	color: #fff;
+}
+
+.jumbotron h3 {
+	margin-top: 0px;
+	color: #fff; 
+}
+
+#about{
+	width: 550px;
+	margin: auto;
+	padding: auto;
+	font-size: 18px;
+	line-height: 150%;
+	font-family: 'Lato', sans-serif;
+	/*border: 1px solid red; */
+}
+
+#contact {
+	margin-top: 50px;
+	background-color: #6ed3cf;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 2em;
+}
+
+p {
+	
+	}
