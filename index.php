@@ -5,7 +5,7 @@
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>JHWebTech</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main2.css">
 		<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
