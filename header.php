@@ -18,7 +18,7 @@
 	</head>
 <body>
 
-	<header id="homepage">	
+	<header id="full-header">	
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
 		  	<div class="row">
@@ -37,7 +37,7 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">     
 			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#about">About</a></li>
+			        <li><a href="http://localhost/jhwebtech#about">About</a></li>
 			        <li><a href="#contact">Contact</a></li>
 			        <li><a href="#">Portfolio</a></li>
 			        <li><a href="https://github.com/jhwebtech" target="_blank">Github</a></li>
@@ -56,57 +56,3 @@
 		       </div><!-- /.navbar-collapse -->
 		    
 		</nav>
-
-		<div class="jumbotron">
-			<h1>Web Developer</h1><br/>
-			<h3>HTML &#8226; CSS &#8226; Javascript &#8226; Java &#8226; PHP &#8226; Ruby on Rails</h3>
-	    </div>
-
-	
-	        </div><!-- end row -->
-		  </div><!-- /.container-fluid -->
-
-	</header>
-
-		<div class="container-fluid" id="about">
-			<div class="row">
-				<div class="col-xs-8 col-sm-8 col-md-12">
-					<article>
-					<h3 class="titles">About Me</h3>
-					<h3>Hi, My Name is Julie Hodgson</h3>
-					<p>I am a Web Developer who is currently pursuing 
-						a master’s degree in Computer Science from the
-						 University of Illinois Springfield.</p>
-					<br/>
-					<h3 class="titles">Technologies</h3>
-						<ul>
-							<li>Node.js</li>
-							<li>Ruby on Rails</li>
-							<li>Wordpress</li>
-							<li>Java</li>
-							<li>Python</li>
-							<li>HTML</li>
-							<li>CSS</li>
-						</ul>
-					</article>  
-				</div><!-- columns -->  
-			</div><!-- row -->
-		</div><!--container -->
-<article id="contact">
-	
-</article>
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-	$(".navbar a").on('click', function(event) {
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-}
-	</script>
-	</div>
-</body>
-</html>

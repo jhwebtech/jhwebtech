@@ -5,10 +5,10 @@
 }
 
 body {
-	background-color: #e1e8f0;
+	background-color: #fff;
 }
 
-header{
+header#homepage{
 
 	height: 100vh;
 	width: 100%;
@@ -30,6 +30,11 @@ header{
 	flex-direction: column;
 }
 
+header#full-header{
+ /* border: 1px dotted red; */
+ 
+}
+
 .container {
     width: 550px;
 }
@@ -37,14 +42,15 @@ header{
 .navbar {
 	border-radius: 0;
 	font-size: 16px;
-	background-color: #e1e8f0;
+	background-color: #e1e8f0; 
+	/*background-color: transparent;*/
 }
 
 .navbar-brand {
 	font-family: 'Satisfy', cursive;
 	font-weight: bold; 
 	font-size: 22px;
-	color: #e62739;
+	color: #777;
 }
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
@@ -53,7 +59,7 @@ header{
 
 .navbar-default .navbar-brand {
 
-	color: #e62739;
+	color: #777;
 }
 .dropdown-menu{
 	background-color: #e1e8f0;
@@ -95,7 +101,14 @@ h3 {
 	margin-top: 0px;
 	color: #fff; 
 }
-
+#blog-post {
+	width: 750px;
+	margin: auto;
+	padding: auto;
+	font-size: 17px;
+	line-height: 150%;
+	font-family: 'Lato', sans-serif;
+}
 #about{
 	width: 550px;
 	margin: auto;
@@ -116,6 +129,42 @@ ul {
 	margin-left: 2em;
 }
 
-p {
+article.blog-post {
+	background-color: #fff;
+	width: 700px;
+	padding: 20px;
+	line-height: 150%;
+	align: left;
+}
+
+article.blog-post h1 {
+	text-align: left;
+	font-size: 40px;
+	font-family: 'Satisfy', cursive;
+}
+
+article.blog-post p {
 	
-	}
+}
+
+.code-box {
+	border: 1px solid #d0d0d0;
+	border-radius: 4px; 
+	background-color: #e1e8f0;
+	padding: 15px;
+}
+table.sign-up td{
+	padding: 5px;
+}
+/*
+table.sign-up {
+	background-color: #e62739;
+	border: 4px solid #6ed3cf;
+	border-radius: 14px; 
+	color: #fff;
+}
+*/
+
+.jh-error {
+	color: red;
+}
